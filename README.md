@@ -1,65 +1,72 @@
 <div align="center">
-    <h1>Interstellar V5</h1>
-    <h3>Interstellar is one of the most modern and popular unblocking sites.</h3>
-    
-### [Join our Discord!](https://discord.gg/interstellar)
+    <img src="https://github.com/InterstellarNetwork/Interstellar/assets/89202835/77c63680-544b-42e9-88d6-d288e7681e82">
+    <p>Serving over 7 million users since 2023.<p>
+    <p>Interstellar is a web proxy with a Clean and Sleek UI and easy to use menus. Our goal is to provide the best user experience to everyone.</p>
 </div>
 
-> **If you do fork this repo, please give the original repo a star! It helps out alot and only 30% of people who fork give us a star... besides, you know you want to...**
+![inpreview](https://github.com/InterstellarNetwork/Interstellar/assets/89202835/2669efed-5186-4932-83c4-725acae60bd2)
 
-<h2 align="center">Features</h2>
-<ul>
-    <li>About:Blank Cloaking</li>
-    <li>Fast Speeds</li>
-    <li>Wide collection of Games</li>
-    <li>Tab Cloaking</li>
-    <li>Wide collection of Apps</li>
-    <li>Built-In Tab System</li>
-    <li>Clean UI</li>
-</ul>
+> [!IMPORTANT]
+> If you fork this project, consider giving it a star in the original repository!
 
-<h2 align="center">Deployment</h2>
+**Join Our [Discord Community](https://discord.gg/interstellar) for support, more links, and an active community!**
 
-You can **NOT** deploy to Netlify, Cloudflare Pages, Github Pages or any other **static** Web Host.
+## Features
 
-> **Note**
-> Join our [Discord Server](https://discord.gg/interstellar) for more options & tutorials.
+<div align="center">
+
+| Wide Collection of Games |  Tab Cloaking   | Wide collection of Apps |
+| :----------------------: | :-------------: | :---------------------: |
+|   About:Blank Cloaking   |   Fast Speeds   |   Built in Tab system   |
+|         Clean UI         | Inspect Element |     Now.gg support      |
+|   Password Protection    |     Themes      |   GeForce NOW support   |
+
+</div>
+
+## Deployment
+
+> [!IMPORTANT]
+> You **cannot** deploy to static web hosts, including Netlify, Cloudflare Pages, and GitHub Pages.
 
 <a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/interstellarnetwork/interstellar"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
-<a target="_blank" href="https://replit.com/github/interstellarnetwork/interstellar"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"></a>
 <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/interstellarnetwork/interstellar"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
-<a target="_blank" href="https://render.com/deploy?repo=https://github.com/InterstellarNetwork/IN-Render"><img alt="Deploy to Render" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg"></a>
 <a target="_blank" href="https://app.cyclic.sh/api/app/deploy/interstellarnetwork/Interstellar"><img alt="Deploy to Cyclic" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg"></a>
 
-## Deploy to Replit
-### **Replit will no longer be free starting January 1, 2024**
-1. Create a Replit Account (https://replit.com)
-2. Click **+ Create Repl**
-3. Click **Template** and Change the language to **Node.js**
-4. Then click **Create Repl**
-5. Click **Shell**
-- Paste the code below. (Ctrl + Shift + V)
-- `git clone https://github.com/interstellarnetwork/interstellar`
-6. Once it's done cloning paste the code below. (Ctrl + Shift + V)
-- ``cd interstellar && npm i && npm run start``
+### Deployment Alternatives
 
-## Quick Deploy to GitHub Codespaces
-1. Create a GitHub account if you haven't already
-2. Scroll up, click "Code" (green button), and then "Create Codespace on main"
-3. In the terminal on the bottom, paste `npm i && npm run start`
-4. You'll see a popup on the corner about an application. Click "Make public"
-5. Go to the ports tab on the top (next to the terminal tab), and then click the website that appears on the list.
-6. For subsequent uses in the same codespace, just run `npm run start`
+For more deployment options, join our [Discord Server](https://discord.gg/interstellar) for various ways to deploy Interstellar.
+This includes methods of deploying to Render/OnRender.
 
+#### What happened to Replit Deployment?
 
-## If you need any help with deploying, join our Discord!
-- https://discord.gg/interstellar
+As of January 1st, 2024, Replit is [no longer free](https://blog.replit.com/hosting-changes). Try GitHub Codespaces instead.
 
-> **Note**
-> If you have any problems please open an issue, so we can fix it ASAP!<br>
-> If you don't know how to do this because you are an absolute no-brainer then message us a report in our [Discord](https://discord.gg/interstellar).
+### GitHub Codespaces
+
+1. Create a GitHub account if you haven't already.
+2. Click "Code" (green button) and then "Create Codespace on main."
+3. In the terminal at the bottom, paste `pnpm i && pnpm start`.
+4. Respond to the application popup by clicking "Make public."
+   > Make sure you actually click the "Make public." button, or the proxy won't function properly.
+5. Access the deployed website from the ports tab.
+6. For subsequent uses in the same codespace, just run `pnpm start`
+
+### Solution for if there is no popup.
+
+1. Run `pnpm i`, and before `pnpm start`, prepend `PORT=8080`, replacing 8080 with another port. For example, `PORT=6969 pnpm start`.
+2. If this does not work then you can prepend `$env:PORT=8080;`, replacing 8080 with another port. For example, `$env:PORT=6969; pnpm start`
+3. Go to the ports tab, Click Forward A Port, And type the port number.
+4. Right-click Visibility and set Port Visibility to Public.
+
+> [!TIP]
+> If you're having trouble, don't hesitate reach out to us on [Discord](https://discord.gg/interstellar) for personalized support.
+
+## Report Issues
+
+If you encounter problems, open an issue on GitHub, and we'll address it promptly.
 
 # Credits
-Huge thanks to following people for contributing to Interstellar!
 
-[![Contrib](https://contrib.rocks/image?repo=InterstellarNetwork/Interstellar)](https://github.com/InterstellarNetwork/Interstellar/graphs/contributors)
+A huge thank you to all of the people who have contributed to Interstellar.
+
+[![Contributors](https://contrib.rocks/image?repo=InterstellarNetwork/Interstellar)](https://github.com/InterstellarNetwork/Interstellar/graphs/contributors)
